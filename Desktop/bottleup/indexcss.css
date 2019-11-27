@@ -480,9 +480,13 @@ font-family: 'Proza Libre', sans-serif;
 
         }
 
-        
 
 
+
+.footertext
+{
+    text-align: right;
+}
 
 
 
