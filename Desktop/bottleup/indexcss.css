@@ -97,6 +97,7 @@ Fonts og farver
     max-width: 1024px;
     margin: 30px auto;
     font-size: 1.2em;
+    background: #E4E4E6;
     
 }
 .wrapperprodukt > * {
@@ -114,6 +115,10 @@ Fonts og farver
     "display display display display"
     "content content imgbottle imgbottle"
     "bottlegreen bottlegreen content2 content2"
+    "bottle1 bottle1 bottle3 bottle3"
+    "price1 price1 price2 price2"
+    "bottle2 bottle2 bottle4 bottle4"
+    "price3 price3 price4 price4"
     "footer footer footer footer";
 }
 
@@ -339,6 +344,44 @@ Fonts og farver
 
 }
 
+
+.price1
+    {
+        border: 3px solid #707070;
+        background: #F2F2F2;
+        width: 4em;
+    }
+        
+    .price2
+    {
+        border: 3px solid #707070;
+        background: #F2F2F2;
+      
+        width: 4em;
+    }
+    .price3
+    {
+        border: 3px solid #707070;
+        background: #F2F2F2;
+        width: 4em;
+    }
+        
+    .price4
+    {
+        border: 3px solid #707070;
+        background: #F2F2F2;
+        
+        width: 4em;
+    }
+
+
+
+
+
+
+
+
+
 /*3.1 Nav farver og størelser*/ 
 .main-nav
 
@@ -421,6 +464,8 @@ font-family: 'Proza Libre', sans-serif;
             "display display display display display display display display"
             ". content content content . imgbottle imgbottle imgbottle"
             ". . bottlegreen bottlegreen content2 content2 content2 content2"
+            "bottle1 bottle1 bottle2 bottle2 bottle3 bottle3 bottle4 bottle4"
+            "price1 price1 price2 price2 price3 price3 price4 price4"
             "footer footer footer footer footer footer footer footer";
         }
 /*artikler på desktop*/
@@ -435,7 +480,6 @@ font-family: 'Proza Libre', sans-serif;
 
         }
 
-    
         
 
 
