@@ -120,32 +120,41 @@ Fonts og farver
 
 /*1.3*/
 .wrapperkontakt {
-    max-width: 1024px;
-    margin: 30px auto;
-    font-size: 1.2em;
+            max-width: 1980px;
+            margin: 30px auto;
+            font-size: 1.2em;
+            background: #E4E4E6;
     
 }
 .wrapperkontakt > * {
-/*   border: 2px solid #f08c00; */
-/*    background-color: #ffec99; */
-    border-radius: 5px;
-    padding: 10px;
+        /*   border: 2px solid #f08c00; */
+        /*    background-color: #ffec99; */
+            border-radius: 5px;
+            padding: 10px;
 }
 .wrapperkontakt {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: 
-      "nav nav nav nav"
-      "content content content content"
-      "avatar1 avatar1 avatar2 avatar2"
-      "info1 info1 info2 info2"
-      "avatar3 avatar3 avatar4 avatar4"
-      "info3 info3 info4 info4"
-      "footer footer footer footer";
+      "nav nav nav nav nav nav nav nav"
+      "content content content content content content content content"
+      "avatar1 avatar1 avatar1 avatar1 avatar2 avatar2 avatar2 avatar2"
+      "info1 info1 info1 info1 info2 info2 info2 info2"
+      "avatar3 avatar3 avatar3 avatar3 avatar4 avatar4 avatar4 avatar4"
+      "info3 info3 info3 info3 info4 info4 info4 info4"
+      "footer footer footer footer footer footer footer footer";
 
   }
-
+          display: grid;
+          grid-gap: 10px;
+          grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+          grid-template-areas: 
+            "nav nav nav nav nav nav nav nav"
+            "display display display display display display display display"
+            ". content content content . imgbottle imgbottle imgbottle"
+            ". . bottlegreen bottlegreen content2 content2 content2 content2"
+            "footer footer footer footer footer footer footer footer";
 
 /*2.0 Købs side*/
 .bottle1
@@ -201,6 +210,7 @@ Fonts og farver
 .avatar2
 {
     grid-area: avatar2;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 .avatar3
 {
@@ -209,6 +219,7 @@ Fonts og farver
 .avatar4
 {
     grid-area: avatar4;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 
@@ -217,7 +228,8 @@ Fonts og farver
     grid-area: info1;
     margin: 10px;
     padding-bottom: -2em;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 .info2
 {
@@ -233,7 +245,8 @@ Fonts og farver
     margin: 10px;
     padding-bottom: -2em;
     padding-bottom: -2em;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 .info4
 {
@@ -433,15 +446,19 @@ font-family: 'Proza Libre', sans-serif;
             background-color: #F2F2F2;
             width: 20rem; 
 
-        }
-
-    
-        
-
-
-
-
+	}
 
 
 
     }
+.footertext {
+	text-align: center;
+}
+
+p span {
+	display: block;
+}
+
+.banner {
+	 width: 1503px;
+}
