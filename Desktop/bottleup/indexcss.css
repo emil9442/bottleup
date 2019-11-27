@@ -115,9 +115,9 @@ Fonts og farver
     "display display display display"
     "content content imgbottle imgbottle"
     "bottlegreen bottlegreen content2 content2"
-    "bottle1 bottle1 bottle3 bottle3"
+    "bottle1 bottle1 bottle2 bottle2"
     "price1 price1 price2 price2"
-    "bottle2 bottle2 bottle4 bottle4"
+    "bottle3 bottle3 bottle4 bottle4"
     "price3 price3 price4 price4"
     "footer footer footer footer";
 }
@@ -485,7 +485,7 @@ font-family: 'Proza Libre', sans-serif;
 
 .footertext
 {
-    text-align: right;
+    text-align: center;
 }
 
 
