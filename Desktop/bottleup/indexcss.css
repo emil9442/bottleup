@@ -202,6 +202,8 @@ Fonts og farver
 .avatar1
 {
     grid-area: avatar1;
+
+    font-size: 1.2rem;
 }
 .avatar2
 {
@@ -210,10 +212,15 @@ Fonts og farver
 .avatar3
 {
     grid-area: avatar3;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.2rem;
 }
 .avatar4
 {
     grid-area: avatar4;
+    font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 1.2rem;
+
 }
 
 
@@ -468,6 +475,39 @@ font-family: 'Proza Libre', sans-serif;
             "price1 price1 price2 price2 price3 price3 price4 price4"
             "footer footer footer footer footer footer footer footer";
         }
+
+
+        .wrapperkontakt {
+                    max-width: 1980px;
+                    margin: 30px auto;
+                    font-size: 1.2em;
+                    background: #E4E4E6;
+        }
+        .wrapperkontakt > * {
+        
+            border-radius: 5px;
+             padding: 10px;
+        }
+
+        .wrapperkontakt {
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-areas: 
+              "nav nav nav nav nav nav nav nav"
+              ". content content content content content content content"
+              ". avatar1 avatar1 avatar1 avatar2 avatar2 avatar2 avatar2"
+              ". info1 info1 info1 info2 info2 info2 info2"
+              ". avatar3 avatar3 avatar3 avatar4 avatar4 avatar4 avatar4"
+              ". info3 info3 info3 info4 info4 info4 info4"
+              "footer footer footer footer footer footer footer footer";
+
+        }
+
+
+
+
+
 /*artikler på desktop*/
         .content {
             background-color: #F2F2F2;
@@ -486,6 +526,9 @@ font-family: 'Proza Libre', sans-serif;
 .footertext
 {
     text-align: center;
+}
+p span {
+	display: block;
 }
 
 
