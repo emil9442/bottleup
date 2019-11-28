@@ -530,3 +530,48 @@ font-family: 'Proza Libre', sans-serif;
 
 
     }
+
+    /*betaling side*/
+
+.custom-select{
+	width: 200px;
+
+}
+
+.wrapperbetaling{
+	background: rgba(0,223,252, 0.17);
+	border-radius: 5px;
+	padding:3em;
+	grid-column: 2 / 8;
+
+}
+
+.wrapperbetaling input[type=submit] {
+	display: block;
+	Padding:1em;
+	background-color: #00B4CC;
+	border-radius: 25px;
+	width: 40em;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.wrapperbetaling input[type=submit]:hover {
+	background-color:#48ACBD;
+	align: center;
+}
+
+.wrapperbetaling input[type=text], input[type=tel], input[type=email], input[type=date]{
+	width:100%;
+	margin-top:1em;
+	margin-bottom: 2em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+
+.footertext
+{
+
+    
