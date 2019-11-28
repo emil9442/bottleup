@@ -476,7 +476,7 @@ font-family: 'Proza Libre', sans-serif;
             "footer footer footer footer footer footer footer footer";
         }
 
-
+/*Niklas*/
         .wrapperkontakt {
                     max-width: 1980px;
                     margin: 30px auto;
@@ -503,7 +503,7 @@ font-family: 'Proza Libre', sans-serif;
               "footer footer footer footer footer footer footer footer";
 
         }
-
+/*Niklas ends*/
 
 
 
@@ -520,7 +520,7 @@ font-family: 'Proza Libre', sans-serif;
 
         }
 
-
+/*Sunida*/
         .custom-select{
             width: 200px;
             
@@ -533,6 +533,7 @@ font-family: 'Proza Libre', sans-serif;
             grid-column: 2 / 8;
             
         }
+    
         
         .wrapperbetaling input[type=submit] {
             display: block;
@@ -558,6 +559,19 @@ font-family: 'Proza Libre', sans-serif;
             padding-bottom: 0.5em;
         }
 
+
+        .nav-betaling
+    {
+        padding: 3px;
+        margin-top: -2rem;
+    
+        background: #36b1da;
+        background: -moz-linear-gradient(left, #36b1da 0%, #29c6cd 100%);
+        background: -webkit-linear-gradient(left, #36b1da 0%, #29c6cd 100%);
+        background: linear-gradient(to right, #36b1da 0%, #29c6cd 100%);
+
+    }
+/*sunida ends*/
 .footertext
 {
     text-align: center;
