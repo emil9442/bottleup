@@ -476,7 +476,7 @@ font-family: 'Proza Libre', sans-serif;
             "footer footer footer footer footer footer footer footer";
         }
 
-
+/*Niklas*/
         .wrapperkontakt {
                     max-width: 1980px;
                     margin: 30px auto;
@@ -503,7 +503,7 @@ font-family: 'Proza Libre', sans-serif;
               "footer footer footer footer footer footer footer footer";
 
         }
-
+/*Niklas ends*/
 
 
 
@@ -520,7 +520,7 @@ font-family: 'Proza Libre', sans-serif;
 
         }
 
-
+/*Sunida*/
         .custom-select{
             width: 200px;
             
@@ -533,6 +533,7 @@ font-family: 'Proza Libre', sans-serif;
             grid-column: 2 / 8;
             
         }
+    
         
         .wrapperbetaling input[type=submit] {
             display: block;
@@ -558,6 +559,34 @@ font-family: 'Proza Libre', sans-serif;
             padding-bottom: 0.5em;
         }
 
+
+
+/*sunida ends*/
+
+.wrapperindex {
+    max-width: 1980px;
+    margin: 30px auto;
+    font-size: 1.2em;
+    background: #E4E4E6;
+    
+}
+.wrapperindex > * {
+/*   border: 2px solid #f08c00; */
+/*    background-color: #ffec99; */
+    border-radius: 5px;
+    padding: 10px;
+}
+.wrapperindex {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+    "nav nav nav nav nav nav nav nav"
+    ". content content content . imgbottle imgbottle imgbottle"
+    ". content2 content2 content2 imgco2 imgco2 imgco2 imgco2"
+    "footer footer footer footer footer footer footer footer";
+}
+
 .footertext
 {
     text-align: center;
@@ -566,7 +595,10 @@ p span {
 	display: block;
 }
 
-
+.flaskeforside
+{
+    width: 1300px;
+}
 
 
 
